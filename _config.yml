@@ -1,0 +1,11 @@
+title: "MIT ROV 2019-20"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+aux_links:
+    "ROV2019 Github Repository":
+        - "//github.com/mrgk21/ROV2019"
+    "Docs Repository":
+        - "//github.com/vedangasDARKNINJA/new-rov-docs"
+
+baseurl: "/new-rov-docs" # the subpath of your site, e.g. /blog
+url: "https://vedangasdarkninja.github.io"

@@ -3,7 +3,6 @@ layout: default
 title: Libraries
 nav_order: 5
 permalink: /libraries/
-has_children: false
 ---
 
 # Libraries Used

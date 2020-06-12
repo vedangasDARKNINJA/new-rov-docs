@@ -7,8 +7,6 @@ has_children: true
 
 # Arms
 
-{: .no_toc}
-
 Any robotic manipulator consists of **Joints** and **Links**. Joints are connected togheter via links. In our system all the joints are revolute joints and hence are 1 degree of freedom joints.
 
 There are currently two arms mounted on the ROV:

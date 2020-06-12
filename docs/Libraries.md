@@ -7,7 +7,6 @@ has_children: false
 ---
 
 # Libraries Used
-
 {: .no_toc }
 
 _Note:_ Whenever using external libraires **DO NOT** install them in your default arduino library folder:
@@ -15,7 +14,6 @@ _Note:_ Whenever using external libraires **DO NOT** install them in your defaul
 ---
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
@@ -24,7 +22,6 @@ _Note:_ Whenever using external libraires **DO NOT** install them in your defaul
 ---
 
 ## Pros:
-
 {: .no_toc}
 
 -   Libraries won't pile up in your arduino's library folder.
@@ -32,7 +29,6 @@ _Note:_ Whenever using external libraires **DO NOT** install them in your defaul
 -   Codes become more portable.
 
 ## Cons:
-
 {: .no_toc}
 
 -   File size increases

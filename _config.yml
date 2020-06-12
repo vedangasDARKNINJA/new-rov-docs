@@ -1,6 +1,6 @@
 title: "MIT ROV 2019-20"
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "dark"
+color_scheme: "nil"
 aux_links:
     "ROV2019 Github Repository":
         - "//github.com/mrgk21/ROV2019"

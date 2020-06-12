@@ -3,7 +3,6 @@ layout: default
 title: Libraries
 nav_order: 5
 permalink: /libraries/
-has_children: false
 ---
 
 # Libraries Used
@@ -12,12 +11,11 @@ has_children: false
 _Note:_ Whenever using external libraires **DO NOT** install them in your default arduino library folder:
 
 ---
-
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 

@@ -16,12 +16,12 @@
     font-size: 11px;
 }
 
-.stable {
+.stable,.in-development {
     @extend %customlabel;
     background-color: $green-200;
 }
   
-.new-feature {
+.new-feature,.feature-request {
     @extend %customlabel;
     background-color: $purple-100;
 }

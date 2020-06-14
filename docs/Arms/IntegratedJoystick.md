@@ -8,6 +8,7 @@ author: Vedang Javdekar
 
 # {{page.title}}
 {: .no_toc}
+{% include tags.html array="in development,partially tested"%}
 {% include author.html%}
 [Code on Github](https://github.com/mrgk21/ROV2019/blob/FinalWorkingCodes/FinalCodes/Arms/Arms%20Code/Arms_Joystick_Control/){: .btn .btn-purple}
 

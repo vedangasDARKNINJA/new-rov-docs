@@ -1,0 +1,6 @@
+{% assign tags = {{include.array|split:","}}%}
+
+{% for tag in tags %}
+{{tag|strip}}
+{: .label .{{tag|slugify}}}
+{%endfor%}

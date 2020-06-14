@@ -1,0 +1,38 @@
+@import "colors";
+
+%customlabel,.label,.partially-tested
+{
+    display: inline-block;
+    padding-top: 0.16em;
+    padding-right: 0.42em;
+    padding-bottom: 0.16em;
+    padding-left: 0.42em;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+    background-color: $blue-100;
+    font-size: 11px;
+}
+
+.stable {
+    @extend %customlabel;
+    background-color: $green-200;
+}
+  
+.new-feature {
+    @extend %customlabel;
+    background-color: $purple-100;
+}
+  
+.bug,.bugs {
+    @extend %customlabel;
+    background-color: $red-200;
+}
+  
+.work-in-progress {
+    @extend %customlabel;
+    color: $grey-dk-200;
+    background-color: $yellow-200;
+}

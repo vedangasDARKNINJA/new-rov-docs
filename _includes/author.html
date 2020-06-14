@@ -1,0 +1,6 @@
+{% if page.author %}
+<hr>
+<span style="font-style: italic;">Author: {{page.author}}</span><br>
+<span style="font-style: italic;">Date: {{ "now" | date_to_string }}</span>
+<hr>
+{% endif %}

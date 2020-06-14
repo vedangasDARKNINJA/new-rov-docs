@@ -2,13 +2,13 @@
 layout: default
 title: Joystick Control
 parent: Arms
-category: workinprogress
 nav_order: 1
+author: Vedang Javdekar
 ---
 
 # {{page.title}}
 {: .no_toc}
-
+{% include author.html%}
 [Code on Github](https://github.com/mrgk21/ROV2019/blob/FinalWorkingCodes/FinalCodes/Arms/Arms%20Code/Arms_Joystick_Control/){: .btn .btn-purple}
 
 ## Table of contents
@@ -22,10 +22,7 @@ nav_order: 1
 The arduino code to control the behaviour of arms when the appropriate data is received from the NanoPi M4.
 
 ## PDCV Library
-Work in Progress
-{: .d-inline-block .label .label-yellow}
-Partially Tested
-{: .d-inline-block .label .label-blue}
+{% include tags.html array="work in progress,partially tested"%}
 
 Initially the library worked along with the networking codes. But later when the networking codes have been split into navigation and arms, the arms loop is yet to be inegrated and hence these codes won't work out of the box. Once the arms script will be finished, these codes can be tested with the network link.
 
@@ -86,8 +83,7 @@ These methods are used throughout the code to actuate the PDCVs to move the arms
 
 
 ## Joystick Control
-Stable
-{: .d-inline-block .label .label-green}
+{% include tags.html array="stable"%}
 
 The data frames are predefined and are received via UART/serial communication. Each data frame mentions the speed with which link has to move. Negative sign indicates **backward motion**
 
@@ -135,10 +131,7 @@ void ArmMove(int mode)
 
 
 ## Manual Control
-Partially Tested
-{: .d-inline-block .label .label-blue}
-Bugs
-{: .d-inline-block .label .label-red}
+{% include tags.html array="partially tested,bugs"%}
 
 This feature allowed us to test the PDCVs independently. It was previously implemented separately but later it was integrated in the main code. It requires <span class="text-red-200">bug fixes and refactoring as this is not completely tested.</span>
 

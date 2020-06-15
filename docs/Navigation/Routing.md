@@ -33,6 +33,7 @@
 
 ### Design choices:
 {: .no_toc}
+
 A 3mm acrylic sheet on top of 3mm aluminum sheet, was chosen as the base for all the electronic components. This was done to avoid any accidental electrical short due to aluminum being conductive. Only acrylic was not used in this case, as it would break under the weight of the electronics.
 
 As the elex box is completely sealed from all the side with conduction through SS walls being the only way of heat dissipation; we speculated that the ESCs inside could overheat in case of heavy loads. As mentioned by the BlueRobotics forum, the ESCs have a failsafe in case of overheating. In such a case, they would throttle the thrusters without indicating anything to the user. Such a scenario would throw off the calibrated code controlling the thrusters. To avoid the problem, slots were laser cut on the acrylic sheet, where the ESC heat sinks would fit in. These heatsinks were connected to the bottom aluminum plate by a smaller aluminum piece between the both and thermal paste. Kapton tape was used to hold everything in place.

@@ -8,7 +8,6 @@ author: Gaurav Kelkar
 
 # {{page.title}}
 {: .no_toc}
-{% include tags.html array="work in progress"%}
 {% include author.html%}
 
 ## Table of contents

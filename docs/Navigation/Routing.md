@@ -1,4 +1,26 @@
-﻿# Wire Routing:
+﻿---
+layout: default
+title: Joystick Control
+parent: Navigation
+nav_order: 1
+author: Gaurav Kelkar
+---
+---
+# {{page.title}}
+{: .no_toc}
+{% include tags.html array="in development,partially tested"%}
+{% include author.html%}
+[Code on Github](https://github.com/mrgk21/ROV2019/blob/FinalWorkingCodes/FinalCodes/Arms/Arms%20Code/Arms_Joystick_Control/){: .btn .btn-purple}
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+ # Wire Routing:
 {: .no_toc}
 ## Chassis Routing:
 {% include tags.html array="work in progress"%}

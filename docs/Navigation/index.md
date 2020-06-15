@@ -5,8 +5,8 @@ nav_order: 3
 has_children: true
 ---
 
-# Navigation
-
+# {{page.title}}
+{% include tags.html array="work in progress,partially tested"%}
 The navigation system has to move the ROV underwater. To acheive this it uses the these mechanisms:
 
 1. Central ballast and solenoid

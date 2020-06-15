@@ -27,6 +27,7 @@ author: Gaurav Kelkar
 4. The wire routing will have to travel from the back of the chassis towards the elex box. As the length of the camera cable is limited, it cannot be routed by conventional means. To solve this, a mount was proposed which would be mounted on a bolt of the PDCV box. This mount will clamp on the wire bundle, to reduce unwanted stress on connector junctions. (As has been proved by water testing the silicon sealant in the elex box, unwanted tensions might lead to leakage issues.)
 
 ## Elex Box routing:
+{% include tags.html array="partially tested"%}
 ### Need:
 {: .no_toc}
 1. This eliminates the need to use a second elex box, which may have increased the complexity of the design even further.

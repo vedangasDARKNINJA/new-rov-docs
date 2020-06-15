@@ -3,7 +3,7 @@ layout: default
 title: Lamps
 parent: Navigation
 nav_order: 1
-author: Gaurav Kelkar
+author: Gaurav Kelkar, Nikhil Pachkor
 ---
 
 # {{page.title}}

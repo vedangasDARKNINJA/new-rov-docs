@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Joystick Control
+title: Routing
 parent: Navigation
 nav_order: 1
 author: Gaurav Kelkar

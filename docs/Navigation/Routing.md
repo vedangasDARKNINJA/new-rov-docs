@@ -20,7 +20,7 @@ author: Gaurav Kelkar
 ---
 
  # Wire Routing:
-{: .no_toc}
+{: .toc}
 ## Chassis Routing:
 {% include tags.html array="work in progress"%}
 {: .no_toc}

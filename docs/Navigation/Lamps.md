@@ -10,6 +10,12 @@ author: Gaurav Kelkar
 {: .no_toc}
 {% include author.html%}
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 1. They were procured from a Delhi distributor, DS water technology. They are rated 12V 2A IP68. 3 lamps were proposed to be used for the operation, along with 1 as spare. See power supply 2, calculations and SLD diagrams, for details.

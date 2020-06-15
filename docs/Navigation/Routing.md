@@ -19,8 +19,6 @@ author: Gaurav Kelkar
 
 ---
 
- # Wire Routing:
-{: .toc}
 ## Chassis Routing:
 {% include tags.html array="work in progress"%}
 {: .no_toc}

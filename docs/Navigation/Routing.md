@@ -20,14 +20,13 @@ author: Gaurav Kelkar
 
 ## Chassis Routing:
 {% include tags.html array="work in progress"%}
-{: .no_toc}
+
 1. Wires need to be extended till the elex box. This is to be done by using a rubber tape (We will provide the contact for this material) to join wires together, and eventually a cable. (Video explaining the way to use rubber tape: [Here](https://youtu.be/zOp6jgApELE))
 2. We will provide a CAD of the elex box, to pinpoint the location where all the cables would be routed to. (Here) **_[Ask mech to upload this to drive]_**
 3. The idea behind chassis routing was to couple together as many cables as possible and to not separate this bundle as long as possible. These bundles are always kept along the trusses of the chassis, except in point 4.
 4. The wire routing will have to travel from the back of the chassis towards the elex box. As the length of the camera cable is limited, it cannot be routed by conventional means. To solve this, a mount was proposed which would be mounted on a bolt of the PDCV box. This mount will clamp on the wire bundle, to reduce unwanted stress on connector junctions. (As has been proved by water testing the silicon sealant in the elex box, unwanted tensions might lead to leakage issues.)
 
 ## Elex Box routing:
-{: .no_toc}
 ### Need:
 {: .no_toc}
 1. This eliminates the need to use a second elex box, which may have increased the complexity of the design even further.
